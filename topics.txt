@@ -1,0 +1,3 @@
+1. HTML
+2. Server Side Script and Client Side Script.
+3. Framework ( codeignitor/laravel) ( Flask / Django)
