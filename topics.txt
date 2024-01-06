@@ -1,3 +1,10 @@
 1. HTML
 2. Server Side Script and Client Side Script.
 3. Framework ( codeignitor/laravel) ( Flask / Django)
+4. Go to Terminal to upload files in github.
+4. Git Commands
+    1. git init  (initialization of project) ( for 1st time)
+    2. git add . / git add filename
+    3. git commit -m 'Message Likha'
+    4. git push origin
+5. 
