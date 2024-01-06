@@ -7,4 +7,13 @@
     2. git add . / git add filename
     3. git commit -m 'Message Likha'
     4. git push origin
-5. 
+    5. git pull 
+5. CSS
+    1. Internal CSS
+    2. External CSS
+    3. Inline CSS
+    CSS
+        Tag define , usme agar hum styles, color font changes
+        Calling of tags
+        1. id
+        2. class

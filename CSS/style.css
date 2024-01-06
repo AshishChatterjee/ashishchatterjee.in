@@ -1,0 +1,17 @@
+table, th, td {  
+    border: 1px solid rgb(22, 5, 63);  
+    border-collapse: collapse;  
+}  
+th, td {  
+    padding: 20px;
+}  
+table#alter tr:nth-child(even) {  
+    background-color: #edb8b8;  
+}  
+table#alter tr:nth-child(odd) {  
+    background-color: #8feafc;  
+}  
+table#alter th {  
+    color: white;  
+    background-color: rgba(250, 85, 85, 0.943);  
+}  
