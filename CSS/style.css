@@ -146,147 +146,38 @@ body {
 
  /*code for slider ends */
 
+/* Slideshow container */
+.footer-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
 
-<style>
-.bg-footer {
-    background-color: #33383c;
-    padding: 50px 0 30px;
+.row
+{
+  max-width: 100%;
+  max-height: 100%;
 }
-.footer-heading {
-    letter-spacing: 2px;
+
+.row2
+{
+  max-width: 100%;
+  max-height: 100%;
 }
- 
-.footer-link a {
-    color: #acacac;
-    line-height: 40px;
-    font-size: 14px;
-    transition: all 0.5s;
+.card
+{
+  padding-left:10px;
+  max-width: 33.33%;
+  max-height: 40%;
 }
- 
-.footer-link a:hover {
-    color: #1bbc9b;
+
+.card2
+{
+  max-width: 40%;
+  max-height: 50%;
 }
- 
-.contact-info {
-    color: #acacac;
-    font-size: 14px;
-}
- 
-.footer-social-icon {
-    font-size: 15px;
-    height: 34px;
-    width: 34px;
-    line-height: 34px;
-    border-radius: 3px;
-    text-align: center;
-    display: inline-block;
-}
- 
-.facebook {
-    background-color: #4e71a8;
-    color: #ffffff;
-}
- 
-.twitter {
-    background-color: #55acee;
-    color: #ffffff;
-}
- 
-.google {
-    background-color: #d6492f;
-    color: #ffffff;
-}
- 
-.apple {
-    background-color: #424041;
-    color: #ffffff;
-}
- 
-.footer-alt {
-    color: #acacac;
-}
- 
-.footer-heading {
-    position: relative;
-    padding-bottom: 12px;
-}
- 
-.footer-heading:after {
-    content: '';
-    width: 25px;
-    border-bottom: 1px solid #FFF;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    display: block;
-    border-bottom: 1px solid #1bbc9b;
-}
- 
-color: white;
-}
-.shfooter .collapse {
-  display: inherit;
-}
-@media (max-width: 767px) {
-  .shfooter ul {
-    margin-bottom: 0;
-  }
- 
-  .shfooter .collapse {
-    display: none;
-  }
- 
-  .shfooter .collapse.show {
-    display: block;
-  }
- 
-  .shfooter .title .fa-angle-up,
-  .shfooter .title[aria-expanded="true"] .fa-angle-down {
-    display: none;
-  }
- 
-  .shfooter .title[aria-expanded="true"] .fa-angle-up {
-    display: block;
-  }
- 
-  .shfooter .navbar-toggler {
-    display: inline-block;
-    padding: 0;
-  }
-}
- 
-.resize {
-  text-align: center;
-}
-.resize {
-  margin-top: 3rem;
-  font-size: 1.25rem;
-}
-/*RESIZESCREEN ANIMATION*/
-.fa-angle-double-right {
-  animation: rightanime 1s linear infinite;
-}
- 
-.fa-angle-double-left {
-  animation: leftanime 1s linear infinite;
-}
-@keyframes rightanime {
-  50% {
-    transform: translateX(10px);
-    opacity: 0.5;
-  }
-  100% {
-    transform: translateX(10px);
-    opacity: 0;
-  }
-}
-@keyframes leftanime {
-  50% {
-    transform: translateX(-10px);
-    opacity: 0.5;
-  }
-  100% {
-    transform: translateX(-10px);
-    opacity: 0;
-  }
+.card2-body
+{
+  max-width: 40%;
+  max-height: 50%;
 }
