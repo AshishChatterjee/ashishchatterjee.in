@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Add Product</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="product">Product Name :</label>
+      <input type="input" class="form-control" id="productname" placeholder="Enter Product Name" name="productname">
+    </div>
+    <div class="form-group">
+        <select id="inputcategory" class="form-control">
+            <option selected>Choose...</option>
+            <option selected>Please select a category</option>
+            <option value="1">Electronics</option>
+            <option value="2">Furniture</option>
+            <option value="3">Clothing</option>
+            <option value="4">Mobiles</option>
+          </select>
+    </div>
+    <div class="form-group">
+        <label for="product">Product Description :</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+         </div>
+    <div class="form-group">
+        <label for="product">Product Dimension :</label>
+        <input type="input" class="form-control" id="productdim" placeholder="Enter Product Dimension" name="productdim">
+    
+    </div>
+    <div class="form-group">
+      
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>

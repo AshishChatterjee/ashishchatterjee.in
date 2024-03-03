@@ -181,3 +181,20 @@ body {
   max-width: 40%;
   max-height: 50%;
 }
+
+#forms
+{
+  padding-left: 40px;
+  padding-top: 20px;
+  width: 50%;
+}
+#maps
+{
+  padding-left: 20px;
+  width: 40%;
+}
+.body
+{
+  width: 100%;
+  height: 50 %;
+}
